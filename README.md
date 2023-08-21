@@ -124,3 +124,17 @@ The code is compiled using gcc and using the riscv tool chain
 ![image](https://github.com/DineshVenkatG/ASIC_Physical_Design/assets/99543009/735922df-ba95-4317-b0fd-2410aa3e9ac3)
 
 
+*********
+*********
+### DAY2 
+
+*******
+## Simulate C program using ABI function call and execution 
+
+
+![image](https://github.com/DineshVenkatG/ASIC_Physical_Design/assets/99543009/1ecb0f55-8897-4ca2-96ca-306121e7eb1c)
+
+
+
+![image](https://github.com/DineshVenkatG/ASIC_Physical_Design/assets/99543009/79099efd-f52f-4242-943a-8cd31d3abd48)
+

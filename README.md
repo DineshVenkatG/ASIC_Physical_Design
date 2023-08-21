@@ -102,7 +102,25 @@ the below image shows the same :
 
 ![image](https://github.com/DineshVenkatG/ASIC_Physical_Design/assets/99543009/cee87279-e3bf-4236-9853-32fbaaf5b22e)
 
+# Integer Number representation :
+------------
+*Number system for unsigned numbers*
+
+* 64 bit double word
+* 32 bit word
+* Range of unsigned number is : [0,2^(n)-1]
+
+*Number system for signed numbers*
+
+The signed number is represented in 2's complement form
+* The MSB is sign bit 
+* Range is [-2^(n-1),2^(n-1)-1]
 
 
+
+## 2. Write a C program to check the maximum 64 bit unsigned number and max and min 64 bit unsigned number .
+The code is compiled using gcc and using the riscv tool chain 
+
+![image](https://github.com/DineshVenkatG/ASIC_Physical_Design/assets/99543009/735922df-ba95-4317-b0fd-2410aa3e9ac3)
 
 

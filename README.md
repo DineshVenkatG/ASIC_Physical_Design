@@ -129,6 +129,50 @@ The code is compiled using gcc and using the riscv tool chain
 ### DAY2 
 
 *******
+### ABI: Application Binary Interface
+
+Interface is the appearance provided to the user.
+Given an application to run on hardware, there are multiple interface in between for it to run on hardware , this is done by application binary interface.
+Given below is a pictorial representation of how from an application to hardware everything is interfaced 
+
+
+
++ The parts of ISA that are accessible to User: User ISA
++ The parts of ISA accessible to the OS: system ISA
++ The access is done using system calls
++ The ABI accesses the system via *Registers*.
+
+### ABI Names :
++ Specific name through which you can access the internal registers of the risc-v CPU core .
++ The ABI names and their corresponding usage are given below :
+  
+### Base integer instructions :
+*RISCV belongs to the little endian memory addressing system*
+There are 47 base instructions present in RISC-V ISA 
+
+1. R-type (Register type ):
+   They operate on registers and have fixed format for their operands
+
+2. I - types (Immediate type):
+   These instructions have an immediate operand and one register operand.
+
+3. S-type (Store-type):
+   These instructions are used for storing values from registers to memory.
+
+4. B-type (Branch-type):
+   These instructions perform conditional branching based on comparisons.
+
+5. U-type(Upper Immediate Type):
+   Have a larger immediate field for encoding larger constants.
+
+6. J-type (Jump type):
+   Used for unconditional jumps and functional calls.
+
+
+-------------
+
+
+
 ## Simulate C program using ABI function call and execution 
 
 
